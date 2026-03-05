@@ -1067,12 +1067,12 @@ socket.on("receiveLocations", users => {
     });
 
     // Remove disconnected users
-    Object.keys(otherUsers).forEach(id => {
+   /* Object.keys(otherUsers).forEach(id => {
         if (!users[id]) {
             map.removeLayer(otherUsers[id]);
             delete otherUsers[id];
         }
-    });
+    });  */
 });
 /* ========== LOCATION SHARING STATUS ========== */
 
